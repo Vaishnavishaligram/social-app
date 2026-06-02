@@ -120,13 +120,13 @@ Only **two collections** are used:
 
 ## Features
 
-- ✅ Email + password authentication (JWT, bcrypt)
-- ✅ Create posts with text, image, or both
-- ✅ Public feed — all users' posts visible
-- ✅ Like / unlike with instant UI update
-- ✅ Comment with instant UI update
-- ✅ Usernames stored on likes and comments
-- ✅ Delete own posts and comments
-- ✅ Image upload (max 5MB, stored in /uploads)
-- ✅ Dark mode UI with MUI v5
-- ✅ Responsive layout
+- Email + password authentication (JWT, bcrypt)
+-  Create posts with text, image, or both
+-  Public feed — all users' posts visible
+-  Like / unlike with instant UI update
+-  Comment with instant UI update
+-  Usernames stored on likes and comments
+-  Delete own posts and comments
+-  Image upload (max 5MB, stored in /uploads)
+-  Dark mode UI with MUI v5
+-  Responsive layout
