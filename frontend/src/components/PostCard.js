@@ -159,7 +159,7 @@ export default function PostCard({ post, onDelete, onUpdate }) {
           image={
             currentPost.image.startsWith("http")
               ? currentPost.image
-              : `${process.env.REACT_APP_API_URL?.replace("/api", "") || "http://localhost:5000"}${currentPost.image}`
+              : `${process.env.REACT_APP_API_URL?.replace("/api", "") || "https://social-media-backend-cknm.onrender.com/"}${currentPost.image}`
           }
           alt="Post image"
           sx={{
