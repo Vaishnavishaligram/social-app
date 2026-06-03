@@ -1,17 +1,9 @@
 import React, { useState } from "react";
 import {
-  Card,
-  CardContent,
-  CardMedia,
-  Box,
-  Typography,
-  Avatar,
-  IconButton,
+  ...
   TextField,
-  Button,
   Collapse,
   Divider,
-  Chip,
   Tooltip,
   CircularProgress,
 } from "@mui/material";
@@ -21,8 +13,6 @@ import {
   ChatBubbleOutline as CommentIcon,
   Send as SendIcon,
   Delete as DeleteIcon,
-  ExpandMore as ExpandIcon,
-  ExpandLess as CollapseIcon,
 } from "@mui/icons-material";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
@@ -125,11 +115,13 @@ export default function PostCard({ post, onDelete, onUpdate }) {
                 onClick={handleDeletePost}
                 disabled={deleteLoading}
                 sx={{
-                  color: "text.secondary",
-                  "&:hover": { color: "#f06292" },
-                  opacity: 0.6,
-                  "&:hover": { opacity: 1 },
-                }}
+                     color: "text.secondary",
+                       opacity: 0.6,
+                        "&:hover": {
+                         color: "#f06292",
+                           opacity: 1,
+                           },
+                           }}
               >
                 {deleteLoading ? (
                   <CircularProgress size={16} />
