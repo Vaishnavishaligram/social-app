@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import {
-  ...
+  Card, 
+  CardContent,
+  CardMedia,
+  Box, 
+  Typography, 
+  Avatar, 
+  IconButton,
   TextField,
   Collapse,
   Divider,
