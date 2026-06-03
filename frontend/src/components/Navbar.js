@@ -5,7 +5,6 @@ import {
   Typography,
   Box,
   Avatar,
-  IconButton,
   Menu,
   MenuItem,
   Chip,
@@ -13,7 +12,6 @@ import {
 } from "@mui/material";
 import {
   Logout as LogoutIcon,
-  AccountCircle as AccountIcon,
 } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
