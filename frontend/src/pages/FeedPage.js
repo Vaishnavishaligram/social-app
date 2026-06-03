@@ -7,7 +7,6 @@ import {
   Alert,
   Collapse,
   Button,
-  Divider,
   Fade,
 } from "@mui/material";
 import {
@@ -17,10 +16,9 @@ import {
 import { getFeed } from "../api";
 import PostCard from "../components/PostCard";
 import CreatePost from "../components/CreatePost";
-import { useAuth } from "../context/AuthContext";
 
 export default function FeedPage() {
-  const { user } = useAuth();
+  
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
